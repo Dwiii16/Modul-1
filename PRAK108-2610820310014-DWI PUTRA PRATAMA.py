@@ -1,0 +1,20 @@
+
+import math
+
+putaran = 5
+jarak = 14.0
+
+keliling = jarak / putaran
+jari_jari = keliling / (2 * math.pi)
+
+print("Diketahui :")
+print()
+print("Pak Dengklek mengelilingi taman =", putaran, "Putaran")
+print("Jarak tempuh Pak Dengklek =", jarak, "Kilometer")
+
+print()
+print("Jawaban :")
+print()
+
+print("Jari-jari taman yang dikelilingi Pak Dengklek adalah",
+      round(jari_jari, 2), "Kilometer")
